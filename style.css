@@ -1,0 +1,181 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: white;
+}
+
+header {
+    background-color: #3b5d50;
+}
+
+/* ====================================================BACKGROUND COLOR================================================ */
+.hero {
+    background-color: #3b5d50;
+}
+
+.list-inline-item a:hover {
+    background-color: #3b5d50;
+    color: #043924 !important;
+    font-size: 20px;
+    border-radius: 30px;
+    transition: 0.3s ease-in;
+}
+
+/* ================================================BUTTON========================================================= */
+.btn {
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+button:hover {
+    background-color: #043924 !important;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 12px 30px;
+}
+
+/* ==================================================PRODUCT ITEMS====================================================== */
+.product-section .product-items {
+    text-align: center;
+    color: black !important;
+}
+
+.product-items h3 {
+    font-size: 16px;
+}
+
+/* --------------animation */
+.product-items {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.furni:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px hsla(156, 87%, 12%, 0.84);
+    border-radius: 20px;
+}
+
+.cross-img {
+    position: absolute;
+    left: 50%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.product-items:hover .cross-img {
+    opacity: 1;
+}
+
+/* ==================================================CHOOSE US SECTION ==================================================== */
+.feature {
+    font-size: 10px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+
+}
+
+.feature:hover {
+    transform: scale(1.05);
+    border: 20px;
+    background-color: hsla(156, 87%, 12%, 0.073);
+    border-radius: 30px;
+}
+
+
+/* =====================================================WE CHOOSE TO HELP US=========================================== */
+
+.img-grid {
+    position: relative;
+}
+
+.grid-1 {
+    position: relative;
+}
+
+.grid-2 {
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.grid-3 {
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+/* ======================================================POPULAR PRODUCT============================================= */
+.popular-product {
+    font-size: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.popular-product:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail {
+    width: 50%;
+    background-color: #3b5d5038;
+    border-radius: 10px 50px;
+
+}
+
+/* =======================================================BLOG =========================================================== */
+.blog-section {
+    background-color: hsla(156, 87%, 12%, 0.073);
+}
+
+.post {
+    transition: transform 0.3s ease-in;
+}
+
+.post:hover {
+    transform: scale(1.05);
+}
+
+/* ==================================================footer================================================================ */
+.footer-sec {
+    position: relative;
+}
+
+.img-sofa {
+    left: 70%;
+    bottom: 1px;
+
+    position: absolute;
+}
+
+.logo {
+    border-radius: 40px;
+    background-color: hsla(156, 87%, 12%, 0.249);
+}
+
+.foot ul li {
+    padding: 10px;
+}
+
+
+/* ==================================================ABOUT US SECTION================================================ */
+.custom-card {
+    transition: transform 0.3s ease-in;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 4px hsla(156, 87%, 12%, 0.249);
+}
+
+.custom-testi {
+    background-color: hsla(156, 87%, 12%, 0.089);
+}
+
+.form-section {
+    background-color: hsla(156, 87%, 12%, 0.089);
+}
